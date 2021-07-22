@@ -6,6 +6,7 @@ library(pacman)
 library(factoextra)
 library(ggplot2)
 
+# Seleciona os dados que quer analisar
 Dados <- read.csv(file.choose())
 
 dados <- data.frame(Dados)
